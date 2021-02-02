@@ -1,11 +1,10 @@
 header {
   display: flex;
   justify-content: center;
-  background-color: lightblue;
 }
 nav {
   width: 80vw;
-  background-color: #f88;
+  background-color: rgb(216, 107, 107);
 }
 
 nav ul {
@@ -16,6 +15,12 @@ nav ul {
 
 nav ul li + li::before {
   content: " ";
-  border-left: 1px solid black;
+  border-left: 1px solid #20202083;
   padding-left: 8vw;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #fff;
 }
